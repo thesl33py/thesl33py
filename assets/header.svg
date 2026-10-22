@@ -58,7 +58,8 @@
   </g>
 
   <!-- ===== ТЕКСТ ===== -->
-  <text x="70" y="150" class="t-name" font-size="64" fill="#e6edf3">Artyom</text>
+  <text x="70" y="150" class="t-name" font-size="58" fill="#e6edf3">artyom</text>
+  <text x="272" y="150" class="t-name" font-size="58" fill="#89b4fa">&lt;/&gt;</text>
 
   <!-- подзаголовок: отдельные элементы с явными x, чтобы везде рендерились по порядку -->
   <text x="72" y="202" class="t-sub" font-size="26" fill="#89b4fa">$</text>

@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="assets/header.svg" alt="Artyom — Backend and Cybersecurity" width="100%" />
+  <img src="assets/header.svg" alt="artyom</>" width="100%" />
 </div>
 
 <br/>
@@ -12,57 +12,22 @@
 
 <br/>
 
-**_Hello_**
+**_Привет_**
 
-**I'm Artyom — a developer with 3 years in IT. I build web apps, APIs and security tools.**
+**Меня зовут Артём, я в IT уже 3 года. Делаю веб-приложения, API и инструменты по безопасности.**
 
-**I started with Linux and web development, and now I write backends in PHP and Python, tinker with cybersecurity, and share what I learn on my Telegram channel.**
+**Начинал с Linux и веб-разработки, сейчас пишу бэкенд на PHP и Python, разбираюсь с кибербезопасностью и делюсь тем, что узнаю, в своём Telegram-канале.**
 
-**I believe the best way to learn is by shipping real projects — so that's what I do.**
+**Убежден: лучше всего учиться на реальных проектах — поэтому я их и делаю.**
 
 <br/>
 
-**_Tech stack_**
+**_Мой стек_**
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=php,python,vscode,git,github,linux&theme=dark" alt="Tech stack"/>
+  <img src="assets/php-icon.png" alt="PHP" height="48" />
+  <img src="https://skillicons.dev/icons?i=python,vscode,git,github,linux&theme=dark" alt="Tech stack"/>
 </div>
-
-<br/>
-
-**_GitHub stats_**
-
-<div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=thesl33py&show_icons=true&include_all_commits=true&hide_border=true&bg_color=0d1117&title_color=89b4fa&icon_color=89b4fa&text_color=cdd9e5&ring_color=89b4fa&commit_color=89b4fa" alt="GitHub stats"/>
-  <img height="180em" src="https://streak-stats.demolab.com?user=thesl33py&hide_border=true&background=0D1117&ring=89b4FA&fire=89b4FA&currStreakNum=cdd9e5&sideNums=cdd9e5&currStreakLabel=89b4FA&sideLabels=cdd9e5&dates=8b94a3" alt="GitHub streak"/>
-</div>
-
-<br/>
-
-**_Featured projects_**
-
-<table align="center">
-  <tr>
-    <td width="50%">
-      <a href="https://github.com/thesl33py/PasteVault"><b>PasteVault</b></a>
-      <br/>
-      <sub><b>PHP · SQLite</b></sub>
-      <br/><br/>
-      <b>Мини-pastebin: делись кодом по ссылке. Срок жизни паст, подсветка синтаксиса, CSRF-защита, cron-очистка.</b>
-      <br/><br/>
-      <a href="https://github.com/thesl33py/PasteVault"><b>Repository →</b></a>
-    </td>
-    <td width="50%">
-      <a href="https://github.com/thesl33py/FileFlow"><b>FileFlow</b></a>
-      <br/>
-      <sub><b>Python</b></sub>
-      <br/><br/>
-      <b>CLI-хелпер для файлов: поиск, групповое переименование, поиск дубликатов, отчёты. Без зависимостей.</b>
-      <br/><br/>
-      <a href="https://github.com/thesl33py/FileFlow"><b>Repository →</b></a>
-    </td>
-  </tr>
-</table>
 
 <br/>
 
@@ -74,24 +39,10 @@
 
 <br/>
 
-**_What I'm up to_**
-
-- **Currently building more backend projects and security tools**
-- **Learning more about cybersecurity and Linux internals**
-- **Sharing dev notes in my Telegram channel**
-- **Ask me about PHP, Python, Linux or security**
-
-<br/>
-
-**_Contact_**
-
 <div align="center">
-  <a href="mailto:ITartyomDEV@protonmail.com"><img src="https://img.shields.io/badge/Email-ITartyomDEV%40protonmail.com-8B94A3?style=for-the-badge&logo=protonmail&logoColor=white" alt="Email"/></a>
-  <a href="https://t.me/linux15"><img src="https://img.shields.io/badge/Telegram-@linux15-2AABEE?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram"/></a>
-  <br/><br/>
   <a href="https://github.com/thesl33py">
     <img src="https://komarev.com/ghpvc/?username=thesl33py&style=for-the-badge&color=89b4fa&label=VISITORS" alt="Profile views"/>
   </a>
   <br/><br/>
-  <sub><b>Built by Artyom · rain, code and Linux</b></sub>
+  <sub><b>Сделано Артёмом · дождь, код и Linux</b></sub>
 </div>
