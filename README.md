@@ -21,7 +21,8 @@
 **_Мой стек_**
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=php,laravel,python,react,mysql,sqlite,docker,vscode,git,github,linux&theme=dark" alt="Tech stack"/>
+  <img src="assets/sql-icon.svg" alt="SQL / databases" height="48" align="middle" />
+  <img src="https://skillicons.dev/icons?i=php,laravel,python,docker,vscode,git,github,linux&theme=dark" alt="Tech stack" align="middle"/>
 </div>
 
 <br/>
