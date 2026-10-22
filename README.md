@@ -4,16 +4,16 @@
 
 <br/>
 
-**Привет! Я Артём, и я уже 3 года в сфере IT. Я бэкенд-разработчик на PHP — пишу серверную логику, API и инструменты.**
+**Привет! Я Артём, и я уже 3 года в сфере IT. Я бэкенд-разработчик на PHP — пишу серверную логику, API и утилиты, разбираю внутренности сайтов и работаю с кибербезопасностью: red team, аудит и пентест веб-приложений.**
 
 <br/>
 
 <div align="center">
-  <a href="https://t.me/linux15"><img src="https://img.shields.io/badge/Telegram-личный%20%40linux15-8B94A3?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram personal"/></a>
+  <a href="https://t.me/linux15"><img src="https://img.shields.io/badge/Telegram-личный%20%40linux15-8B94A3?style=for-the-badge&logo=telegram&logoColor=white&labelColor=8B94A3" alt="Telegram personal"/></a>
   <br/>
-  <a href="https://t.me/linux401"><img src="https://img.shields.io/badge/Telegram-канал%20%40linux401-8B94A3?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram channel"/></a>
+  <a href="https://t.me/linux401"><img src="https://img.shields.io/badge/Telegram-канал%20%40linux401-8B94A3?style=for-the-badge&logo=telegram&logoColor=white&labelColor=8B94A3" alt="Telegram channel"/></a>
   <br/>
-  <a href="mailto:ITartyomDEV@protonmail.com"><img src="https://img.shields.io/badge/Email-ITartyomDEV%40protonmail.com-8B94A3?style=for-the-badge&logo=protonmail&logoColor=white" alt="Email"/></a>
+  <a href="mailto:ITartyomDEV@protonmail.com"><img src="https://img.shields.io/badge/Email-ITartyomDEV%40protonmail.com-8B94A3?style=for-the-badge&logo=protonmail&logoColor=white&labelColor=8B94A3" alt="Email"/></a>
 </div>
 
 <br/>
@@ -21,7 +21,7 @@
 **_Мой стек_**
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=php,python,vscode,git,github,linux&theme=dark" alt="Tech stack"/>
+  <img src="https://skillicons.dev/icons?i=php,laravel,python,react,mysql,sqlite,docker,vscode,git,github,linux&theme=dark" alt="Tech stack"/>
 </div>
 
 <br/>
