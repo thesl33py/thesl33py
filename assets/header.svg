@@ -70,5 +70,4 @@
   <line x1="70" y1="230" x2="1130" y2="230" stroke="#21262d" stroke-width="1"/>
 
   <text x="70" y="262" class="t-sub" font-size="17" fill="#6e7681">PHP · Python · Git · GitHub · Linux · VS Code</text>
-  <text x="1130" y="262" class="t-sub" font-size="17" fill="#6e7681" text-anchor="end">building things since 2023</text>
 </svg>
