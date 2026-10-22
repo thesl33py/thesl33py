@@ -9,7 +9,7 @@
 <br/>
 
 <div align="center">
-  <a href="https://t.me/linux15"><img src="https://img.shields.io/badge/Telegram-личный%20%40linux15-8B94A3?style=for-the-badge&logo=telegram&logoColor=white&labelColor=8B94A3" alt="Telegram personal"/></a>
+  <a href="https://t.me/linux15"><img src="https://img.shields.io/badge/Telegram-%40linux15-8B94A3?style=for-the-badge&logo=telegram&logoColor=white&labelColor=8B94A3" alt="Telegram"/></a>
   <br/>
   <a href="mailto:ITartyomDEV@protonmail.com"><img src="https://img.shields.io/badge/Email-ITartyomDEV%40protonmail.com-8B94A3?style=for-the-badge&logo=protonmail&logoColor=white&labelColor=8B94A3" alt="Email"/></a>
 </div>
