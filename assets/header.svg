@@ -62,13 +62,8 @@
   <text x="272" y="150" class="t-name" font-size="58" fill="#89b4fa">&lt;/&gt;</text>
 
   <!-- подзаголовок: отдельные элементы с явными x, чтобы везде рендерились по порядку -->
-  <text x="72" y="202" class="t-sub" font-size="26" fill="#89b4fa">$</text>
-  <text x="95" y="202" class="t-sub" font-size="26" fill="#8b94a3">backend_dev</text>
-  <text x="275" y="202" class="t-sub" font-size="26" fill="#89b4fa">·</text>
-  <text x="300" y="202" class="t-sub" font-size="26" fill="#8b94a3">cybersecurity</text>
-  <text x="512" y="202" class="t-sub" font-size="26" fill="#89b4fa">·</text>
-  <text x="537" y="202" class="t-sub" font-size="26" fill="#8b94a3">linux</text>
-  <rect x="630" y="182" width="11" height="24" fill="#89b4fa" class="blink"/>
+  <text x="72" y="202" class="t-sub" font-size="26" fill="#8b94a3">backend_dev</text>
+  <rect x="276" y="182" width="11" height="24" fill="#89b4fa" class="blink"/>
 
   <!-- тонкая разделительная линия -->
   <line x1="70" y1="230" x2="1130" y2="230" stroke="#21262d" stroke-width="1"/>
