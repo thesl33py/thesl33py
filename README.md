@@ -4,7 +4,7 @@
 
 <br/>
 
-**Привет! Я Артём, и я уже 3 года в сфере IT. Я бэкенд-разработчик на PHP — пишу серверную логику и утилиты, разбираю внутренности сайтов и работаю с кибербезопасностью: red team, аудит безопасности, пентест веб-приложений и охота за уязвимостями.**
+**Привет! Я Артём, и я уже 3 года в сфере IT. Я бэкенд-разработчик на PHP — пишу серверную логику и утилиты, разбираю внутренности сайтов и работаю с кибербезопасностью: red team.**
 
 <br/>
 
@@ -24,20 +24,10 @@
   <img src="assets/red-team-icon.svg" alt="Red team" height="48" align="middle" />
 </div>
 
-<br/>
-
-<div align="center">
-  <img src="assets/php-elephant.png" alt="PHP elephant" width="240" />
-  <br/>
-  <b><i>It's me LOL :D</i></b>
-</div>
-
-<br/>
-
 <details>
 <summary><b>English version</b></summary>
 
-**Hi! I'm Artyom, and I've been in IT for 3 years. I'm a PHP backend developer — I write server-side logic and utilities, dig into how websites work, and do cybersecurity: red teaming, security audits, web app pentesting and vulnerability hunting.**
+**Hi! I'm Artyom, and I've been in IT for 3 years. I'm a PHP backend developer — I write server-side logic and utilities, dig into how websites work, and do cybersecurity: red teaming.**
 
 **_My stack_**
 

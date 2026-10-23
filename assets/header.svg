@@ -87,41 +87,64 @@
   <path d="M560 300 C740 299 830 288 940 282 C1060 276 1140 275 1200 275 L1200 300 Z" fill="#0f1712"/>
   <path d="M560 300 C740 299 830 288 940 282 C1060 276 1140 275 1200 275" fill="none" stroke="#1c2b21" stroke-width="1.4"/>
 
-  <!-- ===== ЛЕС (елки на земле, медленно покачиваются) ===== -->
-  <g filter="url(#softTree)" opacity="0.85">
-    <animateTransform attributeName="transform" type="translate" values="0,0; -1.8,0; 0,0" dur="19s" repeatCount="indefinite"/>
-    <path d="M928 281 L929 266 L935 266 L936 281 Q932 284 928 281 Z" fill="#171f1a"/>
-    <path d="M932 194 C918 204 906 220 898 234 L905 227 L917 229 L932 216 L947 229 L959 227 L966 234 C958 220 946 204 932 194 Z" fill="#152720"/>
-    <path d="M932 211 C921 220 912 232 905 243 L911 238 L920 240 L932 229 L944 240 L953 238 L959 243 C952 232 943 220 932 211 Z" fill="#152720"/>
-    <path d="M932 229 C924 235 917 244 912 253 L917 248 L923 250 L932 242 L941 250 L947 248 L952 253 C947 244 940 235 932 229 Z" fill="#1a3026"/>
-    <path d="M932 247 C927 251 923 256 919 262 L922 259 L926 260 L932 255 L938 260 L942 259 L945 262 C941 256 937 251 932 247 Z" fill="#223b2d"/>
-    <path d="M932 264 C930 266 928 268 927 272 L928 270 L930 271 L932 268 L934 271 L936 270 L937 272 C936 268 934 266 932 264 Z" fill="#223b2d"/>
-    <path d="M932 182 L930.4 202 L933.6 202 Z" fill="#2c4a36"/>
+  <!-- ===== ДУБ (один большой, на земле) ===== -->
+  <!-- крона: задний тёмный слой -->
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="0,0; 3,0; 0,0" dur="14s" repeatCount="indefinite"/>
+    <circle cx="1000" cy="132" r="78" fill="#142419"/>
+    <circle cx="928" cy="154" r="56" fill="#142419"/>
+    <circle cx="1074" cy="152" r="58" fill="#142419"/>
+    <circle cx="963" cy="98" r="52" fill="#142419"/>
+    <circle cx="1040" cy="96" r="54" fill="#142419"/>
   </g>
 
-  <g filter="url(#softTree)">
-    <animateTransform attributeName="transform" type="translate" values="0,0; 2,0; 0,0" dur="16s" repeatCount="indefinite"/>
-    <path d="M1142 274 L1143 254 L1149 254 L1150 274 Q1146 277 1142 274 Z" fill="#171f1a"/>
-    <path d="M1146 154 C1128 168 1113 187 1102 203 L1112 196 L1126 199 L1146 182 L1166 199 L1180 196 L1190 203 C1179 187 1164 168 1146 154 Z" fill="#152720"/>
-    <path d="M1146 173 C1131 185 1119 201 1109 214 L1117 209 L1130 211 L1146 197 L1162 211 L1175 209 L1183 214 C1173 201 1161 185 1146 173 Z" fill="#152720"/>
-    <path d="M1146 193 C1134 202 1124 215 1117 226 L1123 221 L1133 223 L1146 212 L1159 223 L1169 221 L1175 226 C1168 215 1158 202 1146 193 Z" fill="#1a3026"/>
-    <path d="M1146 212 C1137 219 1130 229 1124 237 L1129 233 L1136 235 L1146 226 L1156 235 L1163 233 L1168 237 C1162 229 1155 219 1146 212 Z" fill="#1a3026"/>
-    <path d="M1146 232 C1140 236 1135 243 1132 248 L1135 246 L1140 247 L1146 241 L1152 247 L1157 246 L1160 248 C1157 243 1152 236 1146 232 Z" fill="#223b2d"/>
-    <path d="M1146 251 C1143 253 1141 256 1139 260 L1141 258 L1143 259 L1146 256 L1149 259 L1151 258 L1153 260 C1151 256 1149 253 1146 251 Z" fill="#223b2d"/>
-    <path d="M1146 140 L1144.4 160 L1147.6 160 Z" fill="#2c4a36"/>
+  <!-- ствол и ветви (статичные) -->
+  <g>
+    <path d="M984 279 C982 252 986 230 989 210 C992 204 1012 204 1015 210 C1018 232 1022 254 1020 279 C1010 283 994 283 984 279 Z" fill="#161d18"/>
+    <g stroke="#161d18" fill="none" stroke-linecap="round">
+      <path d="M1002 212 C1000 184 995 162 984 144" stroke-width="10"/>
+      <path d="M1002 212 C1006 182 1016 160 1032 142" stroke-width="10"/>
+      <path d="M994 226 C980 208 960 192 938 180" stroke-width="7"/>
+      <path d="M1012 228 C1030 210 1052 196 1074 184" stroke-width="7"/>
+      <path d="M984 144 C976 132 966 124 954 118" stroke-width="4.5"/>
+      <path d="M1032 142 C1042 130 1052 124 1064 120" stroke-width="4.5"/>
+    </g>
   </g>
 
-  <g filter="url(#softTree)">
-    <animateTransform attributeName="transform" type="translate" values="0,0; 2.6,0; 0,0" dur="13s" repeatCount="indefinite"/>
-    <path d="M1006 277 L1007 248 L1013 248 L1014 277 Q1010 280 1006 277 Z" fill="#171f1a"/>
-    <path d="M1010 107 C984 128 960 157 944 176 L959 169 L980 171 L1010 150 L1040 171 L1061 169 L1076 176 C1060 157 1036 128 1010 107 Z" fill="#152720"/>
-    <path d="M1010 130 C987 148 967 173 953 189 L966 183 L984 185 L1010 167 L1036 185 L1054 183 L1067 189 C1053 173 1033 148 1010 130 Z" fill="#152720"/>
-    <path d="M1010 153 C991 168 974 189 962 203 L973 198 L989 199 L1010 184 L1031 199 L1047 198 L1058 203 C1046 189 1029 168 1010 153 Z" fill="#152720"/>
-    <path d="M1010 176 C995 188 981 205 972 216 L980 212 L993 213 L1010 200 L1027 213 L1040 212 L1048 216 C1039 205 1025 188 1010 176 Z" fill="#1a3026"/>
-    <path d="M1010 199 C998 208 988 221 981 230 L987 226 L997 227 L1010 217 L1023 227 L1033 226 L1039 230 C1032 221 1022 208 1010 199 Z" fill="#1a3026"/>
-    <path d="M1010 221 C1002 228 995 237 990 243 L995 240 L1001 241 L1010 234 L1019 241 L1025 240 L1030 243 C1025 237 1018 228 1010 221 Z" fill="#223b2d"/>
-    <path d="M1010 244 C1006 248 1002 252 999 256 L1002 255 L1005 255 L1010 251 L1015 255 L1018 255 L1021 256 C1018 252 1014 248 1010 244 Z" fill="#223b2d"/>
-    <path d="M1010 90 L1008.4 110 L1011.6 110 Z" fill="#2c4a36"/>
+  <!-- крона: передний слой + блики -->
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="0,0; 3,0; 0,0" dur="14s" repeatCount="indefinite"/>
+    <circle cx="1004" cy="142" r="68" fill="#1f3628"/>
+    <circle cx="940" cy="168" r="46" fill="#1f3628"/>
+    <circle cx="1064" cy="166" r="48" fill="#1f3628"/>
+    <circle cx="974" cy="110" r="44" fill="#1f3628"/>
+    <circle cx="1036" cy="108" r="46" fill="#1f3628"/>
+    <circle cx="918" cy="186" r="24" fill="#1f3628"/>
+    <circle cx="1086" cy="182" r="24" fill="#1f3628"/>
+    <circle cx="988" cy="190" r="22" fill="#1f3628"/>
+    <circle cx="1030" cy="192" r="20" fill="#1f3628"/>
+    <circle cx="978" cy="94" r="28" fill="#2a4a35" opacity="0.9"/>
+    <circle cx="938" cy="128" r="22" fill="#2a4a35" opacity="0.9"/>
+    <circle cx="1012" cy="82" r="24" fill="#2a4a35" opacity="0.9"/>
+  </g>
+
+  <!-- падающие листики -->
+  <g fill="#2f5138">
+    <ellipse cx="950" cy="150" rx="2.3" ry="1.2">
+      <animate attributeName="cx" values="950;942;950" dur="2.4s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="translate" values="0,0; -2,135" dur="6s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.06;0.85;1" dur="6s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse cx="1042" cy="120" rx="2.3" ry="1.2">
+      <animate attributeName="cx" values="1042;1050;1042" dur="2.8s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="translate" values="0,0; 3,165" dur="7s" begin="2.2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.06;0.85;1" dur="7s" begin="2.2s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse cx="1002" cy="176" rx="2.1" ry="1.1">
+      <animate attributeName="cx" values="1002;996;1002" dur="2.2s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="translate" values="0,0; -2,110" dur="5.5s" begin="4.1s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.06;0.85;1" dur="5.5s" begin="4.1s" repeatCount="indefinite"/>
+    </ellipse>
   </g>
 
   <!-- ===== ДОЖДЬ (капли только в ПРАВОЙ части — не над текстом) ===== -->
@@ -157,7 +180,7 @@
   <g filter="url(#textGlowSoft)">
     <text x="72" y="202" class="t-sub" font-size="26" fill="#ffffff">$</text>
     <text x="96" y="202" class="t-sub" font-size="26" fill="#ffffff">backend_dev</text>
-    <rect x="278" y="182" width="11" height="24" fill="#89b4fa"/>
+    <rect x="278" y="182" width="11" height="24" fill="#ffffff" class="blink"/>
   </g>
 
   <text x="70" y="262" class="t-sub" font-size="17" fill="#ffffff" fill-opacity="0.72" filter="url(#textGlowSoft)">PHP · Python · Git · GitHub · Linux · VS Code</text>
