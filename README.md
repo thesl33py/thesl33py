@@ -33,15 +33,6 @@
 
 <br/>
 
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/thesl33py/thesl33py/main/output/github-snake-dark.svg" />
-    <img src="https://raw.githubusercontent.com/thesl33py/thesl33py/main/output/github-snake.svg" alt="github-snake contribution graph" />
-  </picture>
-</div>
-
-<br/>
-
 <details>
 <summary><b>English version</b></summary>
 
