@@ -5,6 +5,17 @@
       <stop offset="100%" stop-color="#0a0e14"/>
     </linearGradient>
 
+    <!-- солнце -->
+    <radialGradient id="sunGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffd66b" stop-opacity="0.7"/>
+      <stop offset="40%" stop-color="#ffc95a" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#ffc95a" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="sunHalo" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fff3c2" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#ffd66b" stop-opacity="0"/>
+    </radialGradient>
+
     <!-- плотное облако: светлое ядро + мягкие края -->
     <radialGradient id="cloudBody" cx="45%" cy="38%" r="62%">
       <stop offset="0%" stop-color="#eef3f8" stop-opacity="0.98"/>
@@ -59,6 +70,14 @@
   <!-- фон -->
   <rect width="1200" height="300" fill="url(#bg)"/>
 
+  <!-- ===== СОЛНЦЕ (правый верхний угол) ===== -->
+  <g>
+    <animate attributeName="opacity" values="0.85;1;0.85" dur="9s" repeatCount="indefinite"/>
+    <circle cx="1150" cy="46" r="130" fill="url(#sunGlow)"/>
+    <circle cx="1150" cy="46" r="44" fill="url(#sunHalo)"/>
+    <circle cx="1150" cy="46" r="30" fill="#fff6d0"/>
+  </g>
+
   <!-- ===== ОБЛАКА (крупные, яркие, в центре — правее текста) ===== -->
   <g filter="url(#softCloud)">
     <!-- большое центральное облако -->
@@ -92,20 +111,20 @@
   <path d="M560 300 C740 299 830 288 940 282 C1060 276 1140 275 1200 275" fill="none" stroke="#1c2b21" stroke-width="1.4"/>
 
   <!-- ===== ДУБ (один большой, на земле) ===== -->
-  <!-- крона: задний тёмный слой -->
+  <!-- крона: задний слой -->
   <g filter="url(#foliage)">
     <animateTransform attributeName="transform" type="translate" values="0,0; 3.6,0; 0,0" dur="11s" repeatCount="indefinite"/>
-    <circle cx="1000" cy="132" r="78" fill="#0d1a12"/>
-    <circle cx="928" cy="154" r="56" fill="#0d1a12"/>
-    <circle cx="1074" cy="152" r="58" fill="#0d1a12"/>
-    <circle cx="963" cy="98" r="52" fill="#0d1a12"/>
-    <circle cx="1040" cy="96" r="54" fill="#0d1a12"/>
+    <circle cx="1000" cy="132" r="78" fill="#17291e"/>
+    <circle cx="928" cy="154" r="56" fill="#17291e"/>
+    <circle cx="1074" cy="152" r="58" fill="#17291e"/>
+    <circle cx="963" cy="98" r="52" fill="#17291e"/>
+    <circle cx="1040" cy="96" r="54" fill="#17291e"/>
   </g>
 
   <!-- ствол и ветви (статичные) -->
   <g>
-    <path d="M984 279 C982 252 986 230 989 210 C992 204 1012 204 1015 210 C1018 232 1022 254 1020 279 C1010 283 994 283 984 279 Z" fill="#161d18"/>
-    <g stroke="#161d18" fill="none" stroke-linecap="round">
+    <path d="M984 279 C982 252 986 230 989 210 C992 204 1012 204 1015 210 C1018 232 1022 254 1020 279 C1010 283 994 283 984 279 Z" fill="#453628"/>
+    <g stroke="#453628" fill="none" stroke-linecap="round">
       <path d="M1002 212 C1000 184 995 162 984 144" stroke-width="10"/>
       <path d="M1002 212 C1006 182 1016 160 1032 142" stroke-width="10"/>
       <path d="M994 226 C980 208 960 192 938 180" stroke-width="7"/>
@@ -115,21 +134,18 @@
     </g>
   </g>
 
-  <!-- крона: передний слой + блики -->
+  <!-- крона: передний слой -->
   <g filter="url(#foliage)">
     <animateTransform attributeName="transform" type="translate" values="0,0; 3.6,0; 0,0" dur="11s" repeatCount="indefinite"/>
-    <circle cx="1004" cy="142" r="68" fill="#1d3524"/>
-    <circle cx="940" cy="168" r="46" fill="#1d3524"/>
-    <circle cx="1064" cy="166" r="48" fill="#1d3524"/>
-    <circle cx="974" cy="110" r="44" fill="#1d3524"/>
-    <circle cx="1036" cy="108" r="46" fill="#1d3524"/>
-    <circle cx="918" cy="186" r="24" fill="#1d3524"/>
-    <circle cx="1086" cy="182" r="24" fill="#1d3524"/>
-    <circle cx="988" cy="190" r="22" fill="#1d3524"/>
-    <circle cx="1030" cy="192" r="20" fill="#1d3524"/>
-    <circle cx="978" cy="94" r="28" fill="#2f553c" opacity="0.9"/>
-    <circle cx="938" cy="128" r="22" fill="#2f553c" opacity="0.9"/>
-    <circle cx="1012" cy="82" r="24" fill="#2f553c" opacity="0.9"/>
+    <circle cx="1004" cy="142" r="68" fill="#17291e"/>
+    <circle cx="940" cy="168" r="46" fill="#17291e"/>
+    <circle cx="1064" cy="166" r="48" fill="#17291e"/>
+    <circle cx="974" cy="110" r="44" fill="#17291e"/>
+    <circle cx="1036" cy="108" r="46" fill="#17291e"/>
+    <circle cx="918" cy="186" r="24" fill="#17291e"/>
+    <circle cx="1086" cy="182" r="24" fill="#17291e"/>
+    <circle cx="988" cy="190" r="22" fill="#17291e"/>
+    <circle cx="1030" cy="192" r="20" fill="#17291e"/>
   </g>
 
   <!-- падающие листики -->
