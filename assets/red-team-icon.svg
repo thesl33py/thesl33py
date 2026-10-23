@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="48" height="48">
+  <defs>
+    <filter id="glow" x="-45%" y="-45%" width="190%" height="190%">
+      <feDropShadow dx="0" dy="0" stdDeviation="1.1" flood-color="#f85149" flood-opacity="0.75"/>
+    </filter>
+  </defs>
+  <g filter="url(#glow)" fill="none" stroke="#f85149" stroke-width="1.7" stroke-linecap="round">
+    <!-- внешнее кольцо прицела -->
+    <circle cx="12" cy="12" r="8.6"/>
+    <!-- внутреннее кольцо -->
+    <circle cx="12" cy="12" r="3.4" stroke-width="1.4"/>
+    <!-- перекрестие -->
+    <path d="M12 0.6 V4.2 M12 19.8 V23.4 M0.6 12 H4.2 M19.8 12 H23.4"/>
+    <!-- точка в центре -->
+    <circle cx="12" cy="12" r="1.15" fill="#f85149" stroke="none"/>
+  </g>
+</svg>

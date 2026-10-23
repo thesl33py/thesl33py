@@ -22,7 +22,17 @@
       <feGaussianBlur stdDeviation="5"/>
     </filter>
     <filter id="softTree" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="0.6"/>
+      <feGaussianBlur stdDeviation="0.55"/>
+    </filter>
+
+    <!-- свечение + мягкая тень для текста -->
+    <filter id="textGlow" x="-35%" y="-35%" width="170%" height="170%">
+      <feDropShadow dx="0" dy="0" stdDeviation="5" flood-color="#8fb6ff" flood-opacity="0.45"/>
+      <feDropShadow dx="0" dy="2.5" stdDeviation="2.5" flood-color="#000000" flood-opacity="0.65"/>
+    </filter>
+    <filter id="textGlowSoft" x="-40%" y="-40%" width="180%" height="180%">
+      <feDropShadow dx="0" dy="0" stdDeviation="3" flood-color="#8fb6ff" flood-opacity="0.35"/>
+      <feDropShadow dx="0" dy="1.5" stdDeviation="2" flood-color="#000000" flood-opacity="0.6"/>
     </filter>
 
     <!-- капля дождя: тонкая светлая черта -->
@@ -73,46 +83,45 @@
     </g>
   </g>
 
-  <!-- ===== ЛЕС (елки, медленно покачиваются на месте) ===== -->
-  <!-- дальняя маленькая ель (темнее, уходит в туман) -->
-  <g filter="url(#softTree)" opacity="0.9">
-    <animateTransform attributeName="transform" type="translate" values="0,0; -2,0; 0,0" dur="19s" repeatCount="indefinite"/>
-    <path d="M944 300 L944 264 q4 -8 8 0 L952 300 Z" fill="#101c17"/>
-    <path d="M948 188 L920 224 L976 224 Z" fill="#132219"/>
-    <path d="M948 210 L914 248 L982 248 Z" fill="#132219"/>
-    <path d="M948 234 L906 276 L990 276 Z" fill="#132219"/>
-    <path d="M948 258 L900 300 L996 300 Z" fill="#132219"/>
+  <!-- ===== ЗЕМЛЯ (холм справа) ===== -->
+  <path d="M560 300 C740 299 830 288 940 282 C1060 276 1140 275 1200 275 L1200 300 Z" fill="#0f1712"/>
+  <path d="M560 300 C740 299 830 288 940 282 C1060 276 1140 275 1200 275" fill="none" stroke="#1c2b21" stroke-width="1.4"/>
+
+  <!-- ===== ЛЕС (елки на земле, медленно покачиваются) ===== -->
+  <g filter="url(#softTree)" opacity="0.85">
+    <animateTransform attributeName="transform" type="translate" values="0,0; -1.8,0; 0,0" dur="19s" repeatCount="indefinite"/>
+    <path d="M928 281 L929 266 L935 266 L936 281 Q932 284 928 281 Z" fill="#171f1a"/>
+    <path d="M932 194 C918 204 906 220 898 234 L905 227 L917 229 L932 216 L947 229 L959 227 L966 234 C958 220 946 204 932 194 Z" fill="#152720"/>
+    <path d="M932 211 C921 220 912 232 905 243 L911 238 L920 240 L932 229 L944 240 L953 238 L959 243 C952 232 943 220 932 211 Z" fill="#152720"/>
+    <path d="M932 229 C924 235 917 244 912 253 L917 248 L923 250 L932 242 L941 250 L947 248 L952 253 C947 244 940 235 932 229 Z" fill="#1a3026"/>
+    <path d="M932 247 C927 251 923 256 919 262 L922 259 L926 260 L932 255 L938 260 L942 259 L945 262 C941 256 937 251 932 247 Z" fill="#223b2d"/>
+    <path d="M932 264 C930 266 928 268 927 272 L928 270 L930 271 L932 268 L934 271 L936 270 L937 272 C936 268 934 266 932 264 Z" fill="#223b2d"/>
+    <path d="M932 182 L930.4 202 L933.6 202 Z" fill="#2c4a36"/>
   </g>
 
-  <!-- правая средняя ель -->
-  <g filter="url(#softTree)" opacity="0.95">
-    <animateTransform attributeName="transform" type="translate" values="0,0; 2.2,0; 0,0" dur="16s" repeatCount="indefinite"/>
-    <path d="M1132 300 L1132 250 q5 -9 10 0 L1142 300 Z" fill="#0f1a15"/>
-    <path d="M1137 142 L1102 182 L1172 182 Z" fill="#152820"/>
-    <path d="M1137 170 L1094 214 L1180 214 Z" fill="#152820"/>
-    <path d="M1137 200 L1086 248 L1188 248 Z" fill="#152820"/>
-    <path d="M1137 232 L1080 280 L1194 280 Z" fill="#152820"/>
+  <g filter="url(#softTree)">
+    <animateTransform attributeName="transform" type="translate" values="0,0; 2,0; 0,0" dur="16s" repeatCount="indefinite"/>
+    <path d="M1142 274 L1143 254 L1149 254 L1150 274 Q1146 277 1142 274 Z" fill="#171f1a"/>
+    <path d="M1146 154 C1128 168 1113 187 1102 203 L1112 196 L1126 199 L1146 182 L1166 199 L1180 196 L1190 203 C1179 187 1164 168 1146 154 Z" fill="#152720"/>
+    <path d="M1146 173 C1131 185 1119 201 1109 214 L1117 209 L1130 211 L1146 197 L1162 211 L1175 209 L1183 214 C1173 201 1161 185 1146 173 Z" fill="#152720"/>
+    <path d="M1146 193 C1134 202 1124 215 1117 226 L1123 221 L1133 223 L1146 212 L1159 223 L1169 221 L1175 226 C1168 215 1158 202 1146 193 Z" fill="#1a3026"/>
+    <path d="M1146 212 C1137 219 1130 229 1124 237 L1129 233 L1136 235 L1146 226 L1156 235 L1163 233 L1168 237 C1162 229 1155 219 1146 212 Z" fill="#1a3026"/>
+    <path d="M1146 232 C1140 236 1135 243 1132 248 L1135 246 L1140 247 L1146 241 L1152 247 L1157 246 L1160 248 C1157 243 1152 236 1146 232 Z" fill="#223b2d"/>
+    <path d="M1146 251 C1143 253 1141 256 1139 260 L1141 258 L1143 259 L1146 256 L1149 259 L1151 258 L1153 260 C1151 256 1149 253 1146 251 Z" fill="#223b2d"/>
+    <path d="M1146 140 L1144.4 160 L1147.6 160 Z" fill="#2c4a36"/>
   </g>
 
-  <!-- главная большая ель (объёмная, два тона) -->
   <g filter="url(#softTree)">
     <animateTransform attributeName="transform" type="translate" values="0,0; 2.6,0; 0,0" dur="13s" repeatCount="indefinite"/>
-    <!-- ствол -->
-    <path d="M1000 300 L1000 240 q10 -12 20 0 L1020 300 Z" fill="#141d18"/>
-    <!-- задние ярусы (темнее) -->
-    <path d="M1010 126 L956 192 L1064 192 Z" fill="#172a20"/>
-    <path d="M1010 204 L934 274 L1086 274 Z" fill="#172a20"/>
-    <!-- передние ярусы (светлее) -->
-    <path d="M1010 92 L968 152 L1052 152 Z" fill="#22392c"/>
-    <path d="M1010 164 L944 234 L1076 234 Z" fill="#22392c"/>
-    <path d="M1010 240 L926 300 L1094 300 Z" fill="#22392c"/>
-  </g>
-
-  <!-- туман у корней -->
-  <g opacity="0.32">
-    <animateTransform attributeName="transform" type="translate" values="0,0; 30,0; 0,0" dur="34s" repeatCount="indefinite"/>
-    <ellipse cx="1050" cy="294" rx="210" ry="26" fill="url(#cloudPuff)"/>
-    <ellipse cx="940" cy="288" rx="150" ry="20" fill="url(#cloudPuff)"/>
+    <path d="M1006 277 L1007 248 L1013 248 L1014 277 Q1010 280 1006 277 Z" fill="#171f1a"/>
+    <path d="M1010 107 C984 128 960 157 944 176 L959 169 L980 171 L1010 150 L1040 171 L1061 169 L1076 176 C1060 157 1036 128 1010 107 Z" fill="#152720"/>
+    <path d="M1010 130 C987 148 967 173 953 189 L966 183 L984 185 L1010 167 L1036 185 L1054 183 L1067 189 C1053 173 1033 148 1010 130 Z" fill="#152720"/>
+    <path d="M1010 153 C991 168 974 189 962 203 L973 198 L989 199 L1010 184 L1031 199 L1047 198 L1058 203 C1046 189 1029 168 1010 153 Z" fill="#152720"/>
+    <path d="M1010 176 C995 188 981 205 972 216 L980 212 L993 213 L1010 200 L1027 213 L1040 212 L1048 216 C1039 205 1025 188 1010 176 Z" fill="#1a3026"/>
+    <path d="M1010 199 C998 208 988 221 981 230 L987 226 L997 227 L1010 217 L1023 227 L1033 226 L1039 230 C1032 221 1022 208 1010 199 Z" fill="#1a3026"/>
+    <path d="M1010 221 C1002 228 995 237 990 243 L995 240 L1001 241 L1010 234 L1019 241 L1025 240 L1030 243 C1025 237 1018 228 1010 221 Z" fill="#223b2d"/>
+    <path d="M1010 244 C1006 248 1002 252 999 256 L1002 255 L1005 255 L1010 251 L1015 255 L1018 255 L1021 256 C1018 252 1014 248 1010 244 Z" fill="#223b2d"/>
+    <path d="M1010 90 L1008.4 110 L1011.6 110 Z" fill="#2c4a36"/>
   </g>
 
   <!-- ===== ДОЖДЬ (капли только в ПРАВОЙ части — не над текстом) ===== -->
@@ -138,14 +147,18 @@
     <use href="#drop" opacity="0.34"><animateTransform attributeName="transform" type="translate" values="1180,-20; 1177,320" dur="2.05s" begin="1.4s" repeatCount="indefinite"/></use>
   </g>
 
-  <!-- ===== ТЕКСТ ===== -->
-  <text x="70" y="150" class="t-name" font-size="58" fill="#e6edf3">artyom</text>
-  <text x="272" y="150" class="t-name" font-size="58" fill="#89b4fa">&lt;/&gt;</text>
+  <!-- ===== ТЕКСТ (белый, с мягкой тенью и свечением) ===== -->
+  <g filter="url(#textGlow)">
+    <text x="70" y="150" class="t-name" font-size="58" fill="#ffffff">artyom</text>
+    <text x="272" y="150" class="t-name" font-size="58" fill="#ffffff">&lt;/&gt;</text>
+  </g>
 
   <!-- подзаголовок: отдельные элементы с явными x, чтобы везде рендерились по порядку -->
-  <text x="72" y="202" class="t-sub" font-size="26" fill="#89b4fa">$</text>
-  <text x="96" y="202" class="t-sub" font-size="26" fill="#8b94a3">backend_dev</text>
-  <rect x="278" y="182" width="11" height="24" fill="#89b4fa" class="blink"/>
+  <g filter="url(#textGlowSoft)">
+    <text x="72" y="202" class="t-sub" font-size="26" fill="#ffffff">$</text>
+    <text x="96" y="202" class="t-sub" font-size="26" fill="#ffffff">backend_dev</text>
+    <rect x="278" y="182" width="11" height="24" fill="#89b4fa"/>
+  </g>
 
-  <text x="70" y="262" class="t-sub" font-size="17" fill="#6e7681">PHP · Python · Git · GitHub · Linux · VS Code</text>
+  <text x="70" y="262" class="t-sub" font-size="17" fill="#ffffff" fill-opacity="0.72" filter="url(#textGlowSoft)">PHP · Python · Git · GitHub · Linux · VS Code</text>
 </svg>

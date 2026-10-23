@@ -4,7 +4,7 @@
 
 <br/>
 
-**Привет! Я Артём, и я уже 3 года в сфере IT. Я бэкенд-разработчик на PHP — пишу серверную логику, API и утилиты, разбираю внутренности сайтов и работаю с кибербезопасностью: red team, аудит и пентест веб-приложений.**
+**Привет! Я Артём, и я уже 3 года в сфере IT. Я бэкенд-разработчик на PHP — пишу серверную логику и утилиты, разбираю внутренности сайтов и работаю с кибербезопасностью: red team, аудит безопасности, пентест веб-приложений и охота за уязвимостями.**
 
 <br/>
 
@@ -21,6 +21,7 @@
 <div align="center">
   <img src="https://skillicons.dev/icons?i=php,laravel,python,docker,vscode,git,github,linux&theme=dark" alt="Tech stack" align="middle"/>
   <img src="assets/sql-icon.svg" alt="SQL / databases" height="48" align="middle" />
+  <img src="assets/red-team-icon.svg" alt="Red team" height="48" align="middle" />
 </div>
 
 <br/>
@@ -36,13 +37,14 @@
 <details>
 <summary><b>English version</b></summary>
 
-**Hi! I'm Artyom, and I've been in IT for 3 years. I'm a PHP backend developer — I write server-side logic, APIs and utilities, dig into how websites work, and do cybersecurity: red teaming, auditing and web app pentesting.**
+**Hi! I'm Artyom, and I've been in IT for 3 years. I'm a PHP backend developer — I write server-side logic and utilities, dig into how websites work, and do cybersecurity: red teaming, security audits, web app pentesting and vulnerability hunting.**
 
 **_My stack_**
 
 <div align="center">
   <img src="https://skillicons.dev/icons?i=php,laravel,python,docker,vscode,git,github,linux&theme=dark" alt="Tech stack" align="middle"/>
   <img src="assets/sql-icon.svg" alt="SQL / databases" height="48" align="middle" />
+  <img src="assets/red-team-icon.svg" alt="Red team" height="48" align="middle" />
 </div>
 
 </details>
