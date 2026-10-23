@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="assets/header.svg" alt="artyom</>" width="100%" />
+  <video src="https://raw.githubusercontent.com/thesl33py/thesl33py/main/assets/header.mp4" width="100%" autoplay loop muted playsinline aria-label="artyom</>"></video>
 </div>
 
 <br/>
