@@ -1,9 +1,5 @@
 <div align="center">
-  <
-
-https://github.com/user-attachments/assets/7819fae6-df71-4d35-8c60-ad33748870bd
-
- alt="artyom</>" width="100%" />
+  <img src="assets/header.svg" alt="artyom</>" width="100%" />
 </div>
 
 <br/>
