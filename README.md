@@ -30,3 +30,28 @@
   <br/>
   <b><i>It's me LOL :D</i></b>
 </div>
+
+<br/>
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/thesl33py/thesl33py/main/output/github-snake-dark.svg" />
+    <img src="https://raw.githubusercontent.com/thesl33py/thesl33py/main/output/github-snake.svg" alt="github-snake contribution graph" />
+  </picture>
+</div>
+
+<br/>
+
+<details>
+<summary><b>English version</b></summary>
+
+**Hi! I'm Artyom, and I've been in IT for 3 years. I'm a PHP backend developer — I write server-side logic, APIs and utilities, dig into how websites work, and do cybersecurity: red teaming, auditing and web app pentesting.**
+
+**_My stack_**
+
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=php,laravel,python,docker,vscode,git,github,linux&theme=dark" alt="Tech stack" align="middle"/>
+  <img src="assets/sql-icon.svg" alt="SQL / databases" height="48" align="middle" />
+</div>
+
+</details>

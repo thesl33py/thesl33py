@@ -1,0 +1,39 @@
+name: GitHub Snk
+
+on:
+  schedule:
+    - cron: "43 2 * * *"
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-snake.svg?color_snake=#1f883d&color_dots=#89b4fa,#40c463,#1f883d
+            dist/github-snake-dark.svg?color_snake=#98c379&color_dots=#89b4fa,#ffffff,#98c379
+
+      - name: Commit and push
+        run: |
+          mkdir -p output
+          cp dist/*.svg output/
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add output
+          if git diff --cached --quiet; then
+            echo "No changes"
+            exit 0
+          fi
+          git commit -m "chore: update snake"
+          git push
