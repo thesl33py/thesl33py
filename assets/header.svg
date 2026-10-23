@@ -73,16 +73,46 @@
     </g>
   </g>
 
-  <!-- ===== ДЕРЕВО (силуэт ели, сбоку справа) ===== -->
+  <!-- ===== ЛЕС (елки, медленно покачиваются на месте) ===== -->
+  <!-- дальняя маленькая ель (темнее, уходит в туман) -->
+  <g filter="url(#softTree)" opacity="0.9">
+    <animateTransform attributeName="transform" type="translate" values="0,0; -2,0; 0,0" dur="19s" repeatCount="indefinite"/>
+    <path d="M944 300 L944 264 q4 -8 8 0 L952 300 Z" fill="#101c17"/>
+    <path d="M948 188 L920 224 L976 224 Z" fill="#132219"/>
+    <path d="M948 210 L914 248 L982 248 Z" fill="#132219"/>
+    <path d="M948 234 L906 276 L990 276 Z" fill="#132219"/>
+    <path d="M948 258 L900 300 L996 300 Z" fill="#132219"/>
+  </g>
+
+  <!-- правая средняя ель -->
+  <g filter="url(#softTree)" opacity="0.95">
+    <animateTransform attributeName="transform" type="translate" values="0,0; 2.2,0; 0,0" dur="16s" repeatCount="indefinite"/>
+    <path d="M1132 300 L1132 250 q5 -9 10 0 L1142 300 Z" fill="#0f1a15"/>
+    <path d="M1137 142 L1102 182 L1172 182 Z" fill="#152820"/>
+    <path d="M1137 170 L1094 214 L1180 214 Z" fill="#152820"/>
+    <path d="M1137 200 L1086 248 L1188 248 Z" fill="#152820"/>
+    <path d="M1137 232 L1080 280 L1194 280 Z" fill="#152820"/>
+  </g>
+
+  <!-- главная большая ель (объёмная, два тона) -->
   <g filter="url(#softTree)">
-    <g>
-      <animateTransform attributeName="transform" type="translate" values="0,0; 1.6,0; 0,0" dur="9s" repeatCount="indefinite"/>
-      <path d="M1058 300 L1058 182 q6 -10 12 0 L1070 300 Z" fill="#0a0d11"/>
-      <path d="M1064 178 L1026 214 L1102 214 Z" fill="#0e1613"/>
-      <path d="M1064 202 L1018 244 L1110 244 Z" fill="#0e1613"/>
-      <path d="M1064 228 L1006 276 L1122 276 Z" fill="#0e1613"/>
-      <path d="M1064 152 L1036 184 L1092 184 Z" fill="#111c17"/>
-    </g>
+    <animateTransform attributeName="transform" type="translate" values="0,0; 2.6,0; 0,0" dur="13s" repeatCount="indefinite"/>
+    <!-- ствол -->
+    <path d="M1000 300 L1000 240 q10 -12 20 0 L1020 300 Z" fill="#141d18"/>
+    <!-- задние ярусы (темнее) -->
+    <path d="M1010 126 L956 192 L1064 192 Z" fill="#172a20"/>
+    <path d="M1010 204 L934 274 L1086 274 Z" fill="#172a20"/>
+    <!-- передние ярусы (светлее) -->
+    <path d="M1010 92 L968 152 L1052 152 Z" fill="#22392c"/>
+    <path d="M1010 164 L944 234 L1076 234 Z" fill="#22392c"/>
+    <path d="M1010 240 L926 300 L1094 300 Z" fill="#22392c"/>
+  </g>
+
+  <!-- туман у корней -->
+  <g opacity="0.32">
+    <animateTransform attributeName="transform" type="translate" values="0,0; 30,0; 0,0" dur="34s" repeatCount="indefinite"/>
+    <ellipse cx="1050" cy="294" rx="210" ry="26" fill="url(#cloudPuff)"/>
+    <ellipse cx="940" cy="288" rx="150" ry="20" fill="url(#cloudPuff)"/>
   </g>
 
   <!-- ===== ДОЖДЬ (капли только в ПРАВОЙ части — не над текстом) ===== -->
@@ -116,9 +146,6 @@
   <text x="72" y="202" class="t-sub" font-size="26" fill="#89b4fa">$</text>
   <text x="96" y="202" class="t-sub" font-size="26" fill="#8b94a3">backend_dev</text>
   <rect x="278" y="182" width="11" height="24" fill="#89b4fa" class="blink"/>
-
-  <!-- тонкая разделительная линия -->
-  <line x1="70" y1="230" x2="1130" y2="230" stroke="#21262d" stroke-width="1"/>
 
   <text x="70" y="262" class="t-sub" font-size="17" fill="#6e7681">PHP · Python · Git · GitHub · Linux · VS Code</text>
 </svg>
