@@ -19,14 +19,7 @@
 **_Мой стек_**
 
 <div align="center">
-  <img src="assets/icons/php.svg" alt="PHP" height="48" align="middle" />
-  <img src="assets/icons/laravel.svg" alt="Laravel" height="48" align="middle" />
-  <img src="assets/icons/python.svg" alt="Python" height="48" align="middle" />
-  <img src="assets/icons/docker.svg" alt="Docker" height="48" align="middle" />
-  <img src="assets/icons/vscode.svg" alt="VS Code" height="48" align="middle" />
-  <img src="assets/icons/git.svg" alt="Git" height="48" align="middle" />
-  <img src="assets/icons/github.svg" alt="GitHub" height="48" align="middle" />
-  <img src="assets/icons/linux.svg" alt="Linux" height="48" align="middle" />
+  <img src="https://skillicons.dev/icons?i=php,laravel,python,docker,vscode,git,github,linux&theme=dark" alt="Tech stack" align="middle"/>
   <img src="assets/sql-icon.svg" alt="SQL / databases" height="48" align="middle" />
   <img src="assets/red-team-icon.svg" alt="Red team" height="48" align="middle" />
 </div>
@@ -39,14 +32,7 @@
 **_My stack_**
 
 <div align="center">
-  <img src="assets/icons/php.svg" alt="PHP" height="48" align="middle" />
-  <img src="assets/icons/laravel.svg" alt="Laravel" height="48" align="middle" />
-  <img src="assets/icons/python.svg" alt="Python" height="48" align="middle" />
-  <img src="assets/icons/docker.svg" alt="Docker" height="48" align="middle" />
-  <img src="assets/icons/vscode.svg" alt="VS Code" height="48" align="middle" />
-  <img src="assets/icons/git.svg" alt="Git" height="48" align="middle" />
-  <img src="assets/icons/github.svg" alt="GitHub" height="48" align="middle" />
-  <img src="assets/icons/linux.svg" alt="Linux" height="48" align="middle" />
+  <img src="https://skillicons.dev/icons?i=php,laravel,python,docker,vscode,git,github,linux&theme=dark" alt="Tech stack" align="middle"/>
   <img src="assets/sql-icon.svg" alt="SQL / databases" height="48" align="middle" />
   <img src="assets/red-team-icon.svg" alt="Red team" height="48" align="middle" />
 </div>
