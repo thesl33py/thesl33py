@@ -19,9 +19,14 @@
 **_Мой стек_**
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=php,laravel,python,docker,vscode,git,github,linux&theme=dark" alt="Tech stack" align="middle"/>
-  <img src="assets/sql-icon.svg" alt="SQL / databases" height="48" align="middle" />
-  <img src="assets/red-team-icon.svg" alt="Red team" height="48" align="middle" />
+  <img src="assets/vscode-original.svg" alt="VS Code" height="52" />
+  <img src="assets/linux-original.svg" alt="Linux" height="52" />
+  <img src="assets/elephpant.svg" alt="PHP / elePHPant" height="52" />
+  <img src="assets/rust-original.svg" alt="Rust" height="52" />
+  <img src="assets/python-original.svg" alt="Python" height="52" />
+  <img src="assets/laravel-original.svg" alt="Laravel" height="52" />
+  <img src="assets/sql-icon.svg" alt="SQL / databases" height="52" />
+  <img src="assets/red-team-icon.svg" alt="Red team" height="52" />
 </div>
 
 <details>
@@ -32,9 +37,14 @@
 **_My stack_**
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=php,laravel,python,docker,vscode,git,github,linux&theme=dark" alt="Tech stack" align="middle"/>
-  <img src="assets/sql-icon.svg" alt="SQL / databases" height="48" align="middle" />
-  <img src="assets/red-team-icon.svg" alt="Red team" height="48" align="middle" />
+  <img src="assets/vscode-original.svg" alt="VS Code" height="52" />
+  <img src="assets/linux-original.svg" alt="Linux" height="52" />
+  <img src="assets/elephpant.svg" alt="PHP / elePHPant" height="52" />
+  <img src="assets/rust-original.svg" alt="Rust" height="52" />
+  <img src="assets/python-original.svg" alt="Python" height="52" />
+  <img src="assets/laravel-original.svg" alt="Laravel" height="52" />
+  <img src="assets/sql-icon.svg" alt="SQL / databases" height="52" />
+  <img src="assets/red-team-icon.svg" alt="Red team" height="52" />
 </div>
 
 </details>
