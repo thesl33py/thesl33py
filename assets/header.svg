@@ -184,5 +184,5 @@
     <rect x="278" y="182" width="11" height="24" fill="#ffffff" class="blink"/>
   </g>
 
-  <text x="70" y="262" class="t-sub" font-size="17" fill="#ffffff" fill-opacity="0.72" filter="url(#textGlowSoft)">PHP · Python · Git · GitHub · Linux · VS Code</text>
+  <text x="70" y="262" class="t-sub" font-size="17" fill="#ffffff" fill-opacity="0.72" filter="url(#textGlowSoft)">PHP · Python · Rust · Git · GitHub · Linux · VS Code</text>
 </svg>
