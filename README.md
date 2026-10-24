@@ -23,6 +23,7 @@
   <img src="assets/elephpant.svg" alt="PHP / elePHPant" height="52" />
   <img src="assets/rust-original.svg" alt="Rust" height="52" />
   <img src="assets/python-original.svg" alt="Python" height="52" />
+  <img src="assets/git-original.svg" alt="Git" height="52" />
 </div>
 
 <details>
@@ -37,6 +38,7 @@
   <img src="assets/elephpant.svg" alt="PHP / elePHPant" height="52" />
   <img src="assets/rust-original.svg" alt="Rust" height="52" />
   <img src="assets/python-original.svg" alt="Python" height="52" />
+  <img src="assets/git-original.svg" alt="Git" height="52" />
 </div>
 
 </details>
