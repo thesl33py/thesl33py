@@ -23,9 +23,6 @@
   <img src="assets/elephpant.svg" alt="PHP / elePHPant" height="52" />
   <img src="assets/rust-original.svg" alt="Rust" height="52" />
   <img src="assets/python-original.svg" alt="Python" height="52" />
-  <img src="assets/laravel-original.svg" alt="Laravel" height="52" />
-  <img src="assets/sql-icon.svg" alt="SQL / databases" height="52" />
-  <img src="assets/red-team-icon.svg" alt="Red team" height="52" />
 </div>
 
 <details>
@@ -40,9 +37,6 @@
   <img src="assets/elephpant.svg" alt="PHP / elePHPant" height="52" />
   <img src="assets/rust-original.svg" alt="Rust" height="52" />
   <img src="assets/python-original.svg" alt="Python" height="52" />
-  <img src="assets/laravel-original.svg" alt="Laravel" height="52" />
-  <img src="assets/sql-icon.svg" alt="SQL / databases" height="52" />
-  <img src="assets/red-team-icon.svg" alt="Red team" height="52" />
 </div>
 
 </details>
